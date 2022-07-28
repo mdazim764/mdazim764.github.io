@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Placeses of India</title>
+    <style>
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 20px;
+  
+        }
+        footer{
+            padding: 30px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 20px;
+        }
+        #home{grid-area: taj;}
+        #address{grid-area: address;}
+        #link{grid-area: deli;}
+        #area{grid-area: minar;}
+        #contact{grid-area: humayun;}
+        #contact{grid-area: fatehpuri;}
+        #contact{grid-area: Jaipur;}
+        #contact{grid-area: Khajuraho;}
+        #contact{grid-area: Sanchi;}
+        #contact{grid-area: Konark;}
+
+        #maindiv{
+            display: grid;
+            grid-template-areas: "taj agra deli" "" "minar humayun fatehpuri" "Jaipur Khajuraho Sanchi" "Konark";
+            padding: 20px;
+            background-image: linear-gradient(120deg,black,red,yellow);
+            margin: 20px;
+        }
+        #maindiv>div{
+            background-color: gold;
+            padding: 20px;
+            border-radius: 30px;
+            margin: 20px;
+            color: darkblue;
+            text-align: center;
+            font-size: 40px;
+           
+        }
+        iframe{
+            border: 2px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Historical Places In India</h1>
+    </div>
+    <div id="maindiv">
+        <div id="taj"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/07/Agra1.jpg" alt=""></div>
+        <div id="agra"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Agra-Fort-Uttar-Pradesh-400x267.jpg" alt=""></div>
+        <div id="deli"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Red-Fort-Delhi-400x267.jpg" alt=""></div>
+        <div id="minar"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Qutub-Minar-Delhi-400x265.jpg" alt=""></div>
+        <div id="humayun"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Humayun%E2%80%99s-Tomb-Delhi-400x267.jpg" alt=""></div>
+        <div id="fatehpuri"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Fatehpuri-Sikri-Uttar-Pradesh1-400x267.jpg" alt=""></div>
+        <div id="Jaipur"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Hawa-Mahal-Jaipur-400x267.jpg" alt=""></div>
+        <div id="Khajuraho"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Khajuraho-Temples-Madhya-Pradesh-400x267.jpg" alt=""></div>
+        <div id="Sanchi"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Sanchi-Stupa-Madhya-Pradesh.jpg" alt=""></div>
+        <div id="Konark"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2019/02/Konark-Temple-Odisha-400x267.jpg" alt=""></div>
+    </div>
+    <div>
+        <h1>National Anthem of our country</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YAdSIxlHE5o" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <footer>
+        <h1>Thank You</h1>
+    </footer>
+</body>
+</html>
